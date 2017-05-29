@@ -1,5 +1,7 @@
 def solution(list_of_tuples):
-    '''
-    Enter your code here
-    '''
-    return list
+
+    def byKey(tup):
+        return tup[-1]
+
+    list_of_tuples.sort(key = byKey)
+    return list_of_tuples
