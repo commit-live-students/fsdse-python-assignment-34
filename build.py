@@ -1,5 +1,7 @@
+import operator
+
 def solution(list_of_tuples):
-    '''
-    Enter your code here
-    '''
-    return list
+
+    sorted_x = sorted(list_of_tuples, key=operator.itemgetter(1))
+
+    return sorted_x
