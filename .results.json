@@ -1,0 +1,1 @@
+{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "tests.test_sort_list_last:TestSort_list_last", "type": "success", "name": "test_sort_list_last", "time": 0.0002200603485107422}]}
